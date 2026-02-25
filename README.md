@@ -1,5 +1,3 @@
-# CS 5744 — Assignment 1 (Perceptron + MLP)
-
 **Name:** Zexun Yao  
 
 This repository contains two classifiers for text classification:
@@ -181,14 +179,3 @@ pytest tests/test_perceptron.py
 pytest tests/test_multilayer_perceptron.py
 ```
 
-Please do NOT commit any code that changes the following files and directories:
-
-- tests/
-- .github/
-- pytest.ini
-
-Otherwise, your submission may be flagged by GitHub Classroom autograder.
-
-Please DO commit your output labels in results/ following the same name and content format.
-Our leaderboard periodically pulls your outputs and computes accuracy against hidden test labels.
-The leaderboard is available here: <https://github.com/Cornell-Tech-CS5744-Spring-2026/leaderboards/>.
